@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 500px;
+}
+.menu_controls {
+	width: 100%;
+	background: rgba(0, 213, 255, 0.5);
+	padding: 10px 20px;
+}
+.fixed_menu_group {
+	margin-bottom: 10px;
+}
+.wrap_box {
+	background: gray;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.box{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	width: 33%;
+	padding: 10px 5px;
+	background: pink;
+}
