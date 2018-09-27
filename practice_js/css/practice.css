@@ -26,3 +26,37 @@
 	padding: 10px 5px;
 	background: pink;
 }
+
+
+img {
+  max-width: 100%;
+  width: 600px;
+}
+
+img {
+  animation: haunted 5s infinite;
+}
+
+@keyframes haunted {
+  0% {
+    filter: brightness(20%);
+  }
+  48% {
+    filter: brightness(20%);
+  }
+  50% {
+    filter: sepia(1) contrast(2) brightness(200%);
+  }
+  60% {
+    filter: sepia(1) contrast(2) brightness(200%);
+  }
+  62% {
+    filter: brightness(20%);
+  }
+  96% {
+    filter: brightness(20%);
+  }
+  96% {
+    filter: brightness(200%);
+  }
+}
